@@ -43,7 +43,7 @@ fun NoteItem(
             val clipPath = Path().apply {
                 lineTo(size.width - cutCornerSize.toPx(), 0f)
                 lineTo(size.width, cutCornerSize.toPx())
-                lineTo(size.width, size.heightt)
+                lineTo(size.width, size.height)
                 lineTo(0f, size.height)
                 close()
             }
